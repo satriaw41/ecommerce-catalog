@@ -1,0 +1,31 @@
+:root {
+    --color-black: #000000;
+    --color-navy: #002772;
+    --color-dark-gray: #1E1E1E;
+    --color-medium-gray: #3F3F3F;
+    --color-magenta: #720060;
+    --color-light-blue: #D6E6FF;
+    --color-light-gray: #DCDCDC;
+    --color-light-magenta: #FDE2FF;
+    --color-white: #FFFFFF;
+  }
+  
+  body {
+    background-color: var(--color-light-gray);
+    color: var(--color-medium-gray);
+  }
+  
+  .men-section {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  
+  .women-section {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  
+  .unavailable-product {
+    background-color: var(--color-light-magenta);
+    color: var(--color-magenta);
+  }
